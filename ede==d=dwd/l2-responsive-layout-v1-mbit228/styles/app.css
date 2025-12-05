@@ -1,0 +1,52 @@
+h1 {
+    font-size: 1.3em;
+}
+
+
+th, td {
+    text-align: center;
+}
+
+
+tr {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+
+@media (max-width: 600px) {
+
+    thead {
+        display: none;
+    }
+
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+
+    table {
+        border: 0;
+    }
+
+
+    tbody tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+
+    tbody td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+
+    tbody td:last-child {
+        border-bottom: 0;
+    }
+}
